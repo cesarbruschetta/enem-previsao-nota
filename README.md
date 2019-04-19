@@ -1,7 +1,7 @@
 # Descubra as melhores notas de matemática do ENEM 2016
 
 Você deverá criar um modelo para prever a nota da prova de matemática de quem participou do ENEM 2016. 
-https://medium.com/ensina-ai/machine-learning-randomforest-para-prever-nota-de-matem%C3%A1tica-do-enem-2016-8893b73882f4
+
 
 ## Tópicos
 

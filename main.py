@@ -25,15 +25,15 @@ df_resposta["NU_INSCRICAO"] = df_test["NU_INSCRICAO"]
 # Selecionar somente valores inteiros e floats
 df_test = df_test.select_dtypes(include=["int64", "float64"])
 
-# var = [
-#     "NU_IDADE",
-#     "IN_TREINEIRO",
-#     "NU_NOTA_CN", #- ciências da natureza: 2
-#     "NU_NOTA_CH", #- ciências humanas: 1
-#     "NU_NOTA_LC", #- linguagens e códigos: 1.5
-#     "NU_NOTA_REDACAO", #- redação: 3
-# ]
-# df_test[var].corr()
+var = [
+    "NU_IDADE",
+    "IN_TREINEIRO",
+    "NU_NOTA_CN", #- ciências da natureza: 2
+    "NU_NOTA_CH", #- ciências humanas: 1
+    "NU_NOTA_LC", #- linguagens e códigos: 1.5
+    "NU_NOTA_REDACAO", #- redação: 3
+]
+df_test[var].corr()
 
 # Usando o loc com uma condição composta para obter somente registros com todas as provas
 df_train = df_train.loc[
